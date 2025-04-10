@@ -1,0 +1,21 @@
+lucky_numbers = [1,5,10,56,43,21,23,12,11]
+friends = ["Mohan","Maggi","Jagga","Jumbo","Ganesh","Girish"]
+
+print(friends)
+friends.sort()
+print(friends)
+friends.pop()
+friends2 = friends.copy()
+print(friends2)
+friends.append("Mahesh")
+print(friends)
+friends.reverse()
+print(friends)
+friends.append(lucky_numbers)
+print(friends)
+friends.remove("Maggi")
+print(friends)
+friends.insert(1,"Mitra")
+print(friends)
+friends.clear()
+print(friends)

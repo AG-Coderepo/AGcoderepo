@@ -1,0 +1,11 @@
+print("Athmeeya academy")
+phrase = "Athmeeya academy"
+print(phrase)
+print(phrase.upper())
+print(phrase.lower())
+print(len(phrase))
+print(phrase.index("acad"))
+print(phrase.upper().isupper())
+print(phrase.replace("Athmeeya","Bobby"))
+print("Athmeeya\'academy")
+print("Athmeeya \n academy")
